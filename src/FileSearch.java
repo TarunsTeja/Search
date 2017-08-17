@@ -14,7 +14,7 @@ public class FileSearch {
     		System.out.println("Enter the search item :");
     		a = sc.nextLine();
 
-    	        //try different directory and filename :)
+    	       
     		fileSearch.searchFolder(new File("D:/redis-unstable/"), a);
     		int count = fileSearch.getResult().size();
     		if(count ==0){
