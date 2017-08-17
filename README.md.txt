@@ -1,1 +1,1 @@
-This is README !
+This is the project's README !
